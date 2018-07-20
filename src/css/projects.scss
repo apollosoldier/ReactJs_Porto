@@ -1,0 +1,65 @@
+.projects {
+	.row{
+		margin-right: 0px;
+	}
+	.particle {
+        position: absolute;
+        border-radius: 50%;
+    }
+    @for $i from 1 through 120 {
+        @keyframes particle-animation-#{$i} {
+            100% {
+                transform: translate3d((random(100) * 1vw), (random(100) * 1vh), (random(100) * 1px));
+            }
+        }
+        .particle:nth-child(#{$i}) {
+            animation: particle-animation-#{$i} 60s infinite;
+            $size: random(10) + 5 + px;
+            opacity: random(100)/100;
+            height: $size;
+            width: $size;
+            animation-delay: -$i * .2s;
+            transform: translate3d((random(70) * 1vw), (random(70) * 1vh), (random(80) * 1px));
+            background: hsl(random(360), 70%, 50%);
+        }        
+	}
+	.cards {
+		margin: 50px auto;
+		perspective: 450px;
+	}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper {
+		transform: rotateY(180deg);
+	}
+	.flip-container,
+	.front,
+	.back,
+	.flipper {
+		width: 300px;
+		height: 250px;
+	}
+	/* flip speed goes here */
+	.flipper {
+		transition: 0.6s;
+		transform-style: preserve-3d;
+		position: relative;
+		background-color: #fff;
+	}
+	/* hide back of pane during swap */
+	.front,
+	.back {
+		backface-visibility: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+	}
+	/* back, initially hidden pane */
+	.back {
+		transform: rotateY(180deg);
+	}
+	.card-img-top {
+		height: 60px;
+		width: 60px !important;
+	}
+}
