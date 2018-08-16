@@ -57,47 +57,6 @@ class Nav extends Component {
         style={stickyStyles}
       >
         <div className="magic-wand bounce-xy" onClick={(e) => switchTheme()}>
-          <button className="fas fa-magic fa-lg" href="#" />
-          <div className="magic-text">Run Panda_Colors</div>
-        </div>
-        <style jsx="true">
-          {`
-            .menu__item:hover {
-              border-bottom: 2px solid ${colorPrimary};
-            }
-          `}
-        </style>
-        <div className="menu">
-          <div
-            className="menu__item active"
-            onClick={(e) => this.scrollToPage('.about-page')}
-          >
-            About
-          </div>
-          <div
-            className="menu__item"
-            onClick={(e) => this.scrollToPage('.portfolio-page')}
-          >
-            Portfolio
-          </div>
-          <div className="menu__item">
-            <a href="https://github.com/apollosoldier" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Blog</a>
-          </div>
-          <div className="menu__item">
-            <a href="https://github.com/apollosoldier" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Articles</a>
-          </div>
-          <div className="menu__item">
-            <a href="https://github.com/apollosoldier" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Travels</a>
-          </div>
-          <div
-            className="menu__item"
-            onClick={(e) => this.scrollToPage('.portfolio-page')}
-          >
-            Projects
-          </div>
-          <div className="menu__item">
-            <a href="logo.pdf" download>Download my Resume</a>
-          </div>
         </div>
       </nav>
     );
