@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from '@utils/scroll';
-import cv from '../files/cv2018.pdf';
 import './style.scss';
 
 class Nav extends Component {

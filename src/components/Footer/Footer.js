@@ -13,7 +13,7 @@ const Footer = (props, context) => {
       <div style={{ color: textPrimary }}>Powered by <a href="http://reactjs.org" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>ReactJS</a>
         <div className='row'>
           <div className="logo">
-            <img src={logo} width="100" height="100"/><div style={{ color: textPrimary }}>Made by <a href="https://github.com/apollosoldier" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>PandaMachine</a> <span role="img" aria-label="heart">❤️</span></div>
+            <img src={logo} width="100" height="100" alt="GitHub"/><div style={{ color: textPrimary }}>Made by <a href="https://github.com/apollosoldier" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>PandaMachine</a> <span role="img" aria-label="heart">❤️</span></div>
           </div>
         </div>
         </div>
