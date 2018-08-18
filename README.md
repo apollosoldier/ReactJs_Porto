@@ -27,18 +27,23 @@ Once you have established which version of Node.js you have installed from the U
 
 # And now we will install Reactjs 
   
-  > $ npm install --global npm
+     npm install --global npm
+
 and
-  >> $ npm install --global create-react-app
+      
+     npm install --global create-react-app
   
   ## Now we are going to deploy it by :
   
-  > $ git clone https://github.com/apollosoldier/ReactJs_Porto.git
-  > $ cd ReactJs_Porto
-  > $ npm install 
-  > $ npm start.
+      git clone https://github.com/apollosoldier/ReactJs_Porto.git
+      
+      cd ReactJs_Porto
+      
+      npm install 
+      
+      npm start.
   
-  Finish
+  and enjoy 
   
   
   
