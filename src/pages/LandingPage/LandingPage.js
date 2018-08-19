@@ -16,10 +16,15 @@ const LandingPage = (props, context) => {
       <Nav />
       <main style={{ color: colorPrimary }}>
         <BrowserNotes />
+        <div className="row">
+        <div className="logo">
+          <img src={logo} width="200" height="100" />
+        </div><p> ReactJs App</p>
+      </div>
         <div className="intro-wrapper">
           <div className="intro-name">Hello, I am Mohamed aka "Gentil Panda" !</div>
           <div className="tagline">
-            Full Stack Dev | DataTronics & Artificial Intelligence Enthusiast | Blogger | Uav Drone
+            (Full Stack Dev | DataTronics | Artificial Intelligence | Uav Drones) Enthusiast 
           </div>
           <SocialIcons />
         </div>

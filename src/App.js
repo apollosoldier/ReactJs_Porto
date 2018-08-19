@@ -16,7 +16,6 @@ class App extends Component {
       <div className="dev-landing-page">
         <ThemeSwitcher>
           <Browser except firefox>
-          <ParallaxBackground />
           </Browser>
           <LandingPage />
           <AboutPage />

@@ -10,9 +10,6 @@ const ParallaxBackground = (props, context) => {
     <div className="parallax" style={{ color: colorPrimary }}>
       <div id="stars1" />
       <div id="stars2" />
-      <div id="stars3" />
-      <div id="stars4" />
-      <div id="stars5" />
     </div>
   );
 };
