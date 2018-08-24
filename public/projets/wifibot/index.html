@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>WifiBot</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Projects</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://traore.io">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="projects/">Projects <span class="sr-only"></span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav><!--end navbar -->
+<div class="container page-content">
+	<div class="row">
+	<header class="page-header">
+		<h1><span class="fa fa-rocket"></span>WifiBot -> PandaBot</h1>
+	</header>
+	<article class="col-md-8">
+		<p>
+		<script src="../../../src/App.js">
+        import React, { Component } from 'react';
+        import LandingPage from '../../../src/@pages/LandingPage';
+        import AboutPage from '../../../src/@pages/AboutPage';
+        import PortfolioPage from '../../../src/@pages/PortfolioPage';
+        import ParallaxBackground from '../../../src/@components/ParallaxBackground';
+        import ScrollTop from '../../../src/@components/ScrollTop';
+        import ThemeSwitcher from '../../../src/@components/ThemeSwitcher';
+        import Browser from '../../../src/@components/Browser';
+        import Footer from '../../../src/@components/Footer';
+        import Projects from '../../../src/@components/Projects';
+            class Greeting extends React.Component {
+                render() {
+                    return (
+                              <LandingPage />
+                              <AboutPage />
+                              <PortfolioPage />
+                              <Projects />                    
+                    );
+                }
+            }
+            ReactDOM.render(
+                <Greeting />,
+                document.getElementById('root')
+            );
+       </script>
+	</article>
+	<aside class="col-md-4">
+		<div class="thumbnail widget">
+          <img src="http://www.air-cosmos.com/upload/18/pics/2014/02/paper/530d20942ecd0.jpg" alt="...">
+        </div>
+        <div class="list-group widget">
+        	<a href="#" class="list-group-item active">
+        		Drone UAV Land
+        	</a>
+        	<a href="#" class="list-group-item">Mes maquettes de drone</a>
+        	<a href="#" class="list-group-item">Composantes electronique</a>
+        	<a href="#" class="list-group-item">Montages</a>
+        	<a href="#" class="list-group-item">Test</a>
+        </div>
+      </div>
+	</aside>
+	</div>
+</div><!--./container -->
+</div><!-- end full width foot -->
+<div class="credits">
+  <div class="container">
+    <div class="row">
+    <p class="col-md-10">&copy;All rights Reserved</p>
+  </div><!-- end container -->
+  </div>
+</div><!-- end credits -->
+</body>
+</html>

@@ -23,7 +23,7 @@ class Nav extends Component {
   handleScroll() {
     if (window.pageYOffset > this.nav.offsetTop) {
       this.setState({
-        isSticky: true
+        isSticky: false
       });
     } else {
       this.setState({

@@ -23,6 +23,7 @@ class App extends Component {
           <Projects />
           <ScrollTop />
           <Footer />
+        
         </ThemeSwitcher>
       </div>
     );
@@ -30,3 +31,4 @@ class App extends Component {
 }
 
 export default App;
+          /**/
