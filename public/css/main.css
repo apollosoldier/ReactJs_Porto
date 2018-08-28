@@ -1,9 +1,3 @@
-body {
-  background: url('../img/bg.jpg') no-repeat center center fixed;
-  -noz-background-size: cover;
-  background-size: cover;
-  padding-top: 50px;
-}
 .page-content {
   padding: 40px 15px;
 }
