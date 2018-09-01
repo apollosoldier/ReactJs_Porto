@@ -1,0 +1,72 @@
+{
+  "_from": "particulate",
+  "_id": "particulate@0.3.3",
+  "_inBundle": false,
+  "_integrity": "sha1-9/8C0KTvzDPZj5XKwZ84xg8gL70=",
+  "_location": "/particulate",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "particulate",
+    "name": "particulate",
+    "escapedName": "particulate",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/particulate/-/particulate-0.3.3.tgz",
+  "_shasum": "f7ff02d0a4efcc33d98f95cac19f38c60f202fbd",
+  "_spec": "particulate",
+  "_where": "/root/ReactJs_Porto",
+  "author": {
+    "name": "Jay Weeks",
+    "email": "jay.patrick.weeks@gmail.com",
+    "url": "http://jayweeks.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jpweeks/particulate-js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Particle physics micro library.",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-yuidoc": "^1.0.0",
+    "grunt-coveralls": "^1.0.1",
+    "grunt-neuter": "~0.6.0",
+    "grunt-qunit-istanbul": "^0.6.0",
+    "grunt-rollup": "^0.7.1",
+    "jit-grunt": "^0.10.0",
+    "qunit-theme-ninja": "^1.1.0",
+    "qunitjs": "^1.23.1",
+    "three": "^0.69.0"
+  },
+  "homepage": "http://particulatejs.org/",
+  "jsnext:main": "src/index.js",
+  "keywords": [
+    "particle",
+    "physics",
+    "3d"
+  ],
+  "license": "MIT",
+  "main": "dist/particulate.js",
+  "name": "particulate",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jpweeks/particulate-js.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.3.3"
+}
